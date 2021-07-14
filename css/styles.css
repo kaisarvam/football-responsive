@@ -53,6 +53,11 @@ main{
     white-space: nowrap;
     cursor: pointer;
 }
+
+.nav-button:hover{
+    filter: drop-shadow(10px 10px 4px #f73861);
+}
+
 .login-button{
     color: white;
     width: 100px;
