@@ -77,11 +77,17 @@ main{
 }
 
 .top-full-width{
-    background-color: #8d0d38;
+    background-color: #0d2f8d;
+    
 }
 
 .top-full-width:hover{
-    background-color: #0d2f8d;
+    background-color: #8d0d38;
+}
+
+.top-full-width:hover img{
+    transition: transform .5s;
+transform: scale(1.5)  translate(-300px, 0px);
 }
 .top-section{
     padding-top: 10px;
@@ -102,6 +108,7 @@ color: white;
 }
 
 .right-side img{
+    transition: transform .5s;
     width: 556.01px;
     height: 438px;
 }
