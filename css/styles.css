@@ -355,6 +355,12 @@ font-size: 24px;
     padding: 0;
 }
 
+.right-side img{
+    transition: transform .5s;
+    width: 400px;
+    height: 300px;
+}
+
 .top-head{
     display: flex;
     flex-direction: column;
